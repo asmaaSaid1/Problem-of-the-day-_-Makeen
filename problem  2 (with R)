@@ -13,11 +13,11 @@ print(m)
 new_m=(m[, c(3, 4)]-m[,c(1,2)])^2
 new_m=new_m[,1]+new_m[,2]
 L=sqrt(new_m)
-L
+
 
 #slope
 S=(m[,4]-m[,2])/(m[,3]-m[,1])
-S
+
 Output_m=cbind(L,S)
 Output_m=round(Output_m, digits = 1)
 Output_m
